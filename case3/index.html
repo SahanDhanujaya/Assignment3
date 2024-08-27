@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Case3</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #circle1{
+            width: 150px;
+            aspect-ratio: 1/1;
+            border-radius: 100%;
+            border:10px solid rebeccapurple;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            z-index: 10;
+        }
+        #circle1>div{
+            position: absolute;
+            width: 130px;
+            aspect-ratio: 1/1;
+            border-radius: 100%;
+            border:10px solid mediumpurple;
+        }
+        .circle2{
+            position: relative;
+            width: 130px;
+            aspect-ratio: 1/1;
+            border-radius: 100%;
+            background-color:tomato;
+            top: 500px;
+            left: 0;
+            bottom: 800px;
+            right: 0;
+            margin:auto;
+            z-index: 1;
+            margin-top: 300px;
+            text-align: center;
+            align-content: center;
+            font-weight: bold;
+        }
+        .circle3{
+            position: relative;
+            width: 130px;
+            aspect-ratio: 1/1;
+            border-radius: 100%;
+            background-color:tomato;
+            top: 500px;
+            left: 0;
+            bottom: 800px;
+            right: 0;
+            margin:auto;
+            z-index: 1;
+            margin-top: 300px;
+            visibility: hidden;
+        }
+        body div:nth-child(3){
+            background-color: lightcoral;
+        }
+        body div:nth-child(4){
+            background-color: lightskyblue;
+        }
+        body div:nth-child(5){
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+<div id="circle1">
+    <div></div>
+</div>
+<div class="circle2">Hello</div>
+<div class="circle2">Wellcome To</div>
+<div class="circle2">Institute <br> Of <br> Software <br> Engineering</div>
+<div class="circle3"></div>
+<div class="circle3"></div>
+</body>
+</html>
